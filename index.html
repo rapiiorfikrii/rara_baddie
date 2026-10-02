@@ -20,6 +20,38 @@
             font-family: 'Quicksand', sans-serif;
         }
 
+        /* Biar semua card punya tinggi yang sama */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .row>div {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Biar isi card tersusun rapi */
+        .card-body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Biar deskripsi punya ruang yang sama */
+        .card-text {
+            min-height: 56px;
+        }
+
+        /* Biar tombol selalu di bawah dan sejajar */
+        .card-body .text-center {
+            margin-top: auto;
+        }
+
         .emoji-effect {
             position: fixed;
             font-size: 28px;
@@ -50,7 +82,8 @@
         }
 
         .card-img-top {
-            height: 200px;
+            width: 100%;
+            height: 250px;
             object-fit: cover;
         }
 
@@ -373,6 +406,60 @@
 
                         <p class="card-text">
                             STREAMER TERKENALLL !!!
+                        </p>
+
+                        <div class="text-center">
+                            <button type="button" class="btn btn-primary emoji-btn">
+                                😍😍😍
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 11 -->
+            <div class="col-md-4">
+                <div class="card my-2">
+
+                    <video class="card-img-top" controls>
+                        <source src="vid_rara/vid1.mp4" type="video/mp4">
+                    </video>
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            VID PERTAMANYA
+                        </h5>
+
+                        <p class="card-text">
+                            CEWE PALING BADDIE (+CUTIE) !?!?!?
+                        </p>
+
+                        <div class="text-center">
+                            <button type="button" class="btn btn-primary emoji-btn">
+                                😍😍😍
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 12 -->
+            <div class="col-md-4">
+                <div class="card my-2">
+
+                    <img src="pap_rara/rar11.png" class="card-img-top" alt="Gambar Produk">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            PAP SEBELAS
+                        </h5>
+
+                        <p class="card-text">
+                            YOU LOOK REALLY GOOD IN BATIK BB :3
                         </p>
 
                         <div class="text-center">
